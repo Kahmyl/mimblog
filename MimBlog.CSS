@@ -1,0 +1,176 @@
+
+.zone{
+	
+	cursor:pointer;
+	color:brown;
+	font-size: 2em;
+	border-radius: 1px;s
+	border-radius:1px;
+	border:1px solid #bbb;
+	transition:all 0.1s linear;
+	width:100%;
+	margin: 0px;
+	border-bottom: grey;
+	text-align: center;
+}
+.zone:hover{
+	background-color: rgba(0,0,255,0.2);
+	animation-delay: 3s
+	color:white;
+}
+
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+
+}
+li{
+	padding:20px;
+	text-align: center;
+}
+
+li a{
+	text-align: center;
+	color:white;
+	text-decoration: none;
+}
+.blue{
+	background:grey;
+}
+
+
+
+.zero{
+	font size:50px;
+	
+	
+}
+.boggart{
+ 	margin-right: auto;
+	margin-left: auto;
+	max-width: 80%;
+ }
+.second{
+	display:grid;
+	grid-gap:150px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+.second:hover{
+	background-color: grey;
+	animation-delay: 3s;
+}
+.dialog{
+	border-bottom: solid;
+	border-color: lightgrey;
+	background:white;
+	font-size: 300%;
+	font-family:"arial";
+	margin:0px;
+	margin-left: 30px;
+	
+    max-width: 86.5%;
+     margin-right:40px;
+}
+.vans{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60rem;
+}
+
+.sirop{
+	border-radius: 0px;s
+	border-radius:1px;
+	background:white;
+	border-bottom: solid;
+	border-top: transparent;
+	
+}
+.onyx{
+	background: white;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 65rem;
+	
+}
+
+video{
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));	
+}
+
+@media only screen and (max-width: 65rem){
+	.onyx{
+		max-width: 40rem;
+		padding:0;
+	}
+}
+@media only screen and (max-width: 470px){
+	.onyx{
+		max-width: 20rem;
+		padding:0;
+	}
+}
+
+.b {
+	text-decoration: none;
+	color: black;
+}
+
+.gate{
+	text-align: center;
+}
+#imgrid{
+	display:grid;
+	grid-gap:100px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+	max-width: 95%;
+    margin-right: auto;
+	margin-left: auto;
+}
+footer{
+	text-align: center;
+	font-size: 80%}
+footer a{color:grey;}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 14%;
+  border-radius: 6px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 2rem;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+
